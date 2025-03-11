@@ -59,7 +59,7 @@ public class New {
             int salary = basic[index] + hra[index] + da - it[index];
 
             // Print headers with aligned formatting
-            System.out.printf("%-10s %-15s %-15s %-15s %-10s\n", "Emp No", "Emp Name", "Department", "Designation", "Salary");
+            System.out.printf("%-10s %-15s %-15s %-15s, %-15s %-10s\n", "Emp No", "Emp Name","Join Date", "Department", "Designation", "Salary");
             System.out.printf("%-10s %-15s %-15s %-15s %-10d\n",
                     empNo[index], empName[index], joinDate[index] ,dept[index], designation, salary);
         }
